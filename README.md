@@ -21,6 +21,11 @@
  
  Example of empty state:
  ![Empty State](https://user-images.githubusercontent.com/33491921/119240945-40c68900-bb21-11eb-9066-f54851da9106.PNG)
+ 
+ 
+https://user-images.githubusercontent.com/33491921/119241021-af0b4b80-bb21-11eb-9376-ab3dc26e1069.mp4
+
+
 
 
  
