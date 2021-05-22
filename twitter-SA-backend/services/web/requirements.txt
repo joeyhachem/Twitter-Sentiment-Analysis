@@ -1,0 +1,6 @@
+Flask==2.0.1
+pandas~=1.2.4
+PyYAML~=5.4.1
+requests~=2.25.1
+wordcloud~=1.8.1
+fonttools~=4.24.3
