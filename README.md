@@ -28,6 +28,9 @@
  
  https://user-images.githubusercontent.com/33491921/119241021-af0b4b80-bb21-11eb-9376-ab3dc26e1069.mp4
 
+ Mobile views:
+ ![Mobile view pt 1](https://user-images.githubusercontent.com/33491921/119241246-0100a100-bb23-11eb-8b9d-208bfaba745a.PNG)
+ ![Mobile view pt 2](https://user-images.githubusercontent.com/33491921/119241250-0362fb00-bb23-11eb-865d-a49cf1615e81.PNG)
 
 
 
