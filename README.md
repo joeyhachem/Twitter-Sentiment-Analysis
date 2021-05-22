@@ -25,7 +25,8 @@
  ![Empty State](https://user-images.githubusercontent.com/33491921/119240945-40c68900-bb21-11eb-9066-f54851da9106.PNG)
  
  Video of running an analysis on @certikorg:
-https://user-images.githubusercontent.com/33491921/119241021-af0b4b80-bb21-11eb-9376-ab3dc26e1069.mp4
+ 
+ https://user-images.githubusercontent.com/33491921/119241021-af0b4b80-bb21-11eb-9376-ab3dc26e1069.mp4
 
 
 
