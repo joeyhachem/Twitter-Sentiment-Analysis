@@ -2,6 +2,7 @@
  Twitter Sentiment Analysis
  
 # Backend:
+ Python, Flask
  
  Fetch tweets using twitter api:
  https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-tweets
