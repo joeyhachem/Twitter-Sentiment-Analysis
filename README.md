@@ -13,7 +13,10 @@
  
 # Frontend:
  Using React: https://reactjs.org/
- Using CanvasJS for Donut chart: https://canvasjs.com/ 
+ 
+ Using CanvasJS for Donut chart: https://canvasjs.com/
+ 
+ Using Tailwind for styling: https://tailwindcss.com/
 
 # Media
  
