@@ -12,12 +12,21 @@
  
  Using Wordcloud to generate a wordcloud: https://amueller.github.io/word_cloud/index.html 
  
+ ## __How to run:__
+
+ Get a twitter developer account (https://developer.twitter.com/en/apply-for-access) and an azure account (https://azure.microsoft.com/en-us/services/cognitive-services/) and add your own tokens in the config.yaml in `twitter-SA-backend/services/web/project`.
+ 
+ From `twitter-SA-backend/services/web/`, run `docker build -t twitter-sa-backend .` and then `docker run -p 5000:5000 twitter-sa-backend`. This should run the backend on `localhost:5000`.
+ 
 # Frontend:
  Using React: https://reactjs.org/
  
  Using CanvasJS for Donut chart: https://canvasjs.com/
  
  Using Tailwind for styling: https://tailwindcss.com/
+ 
+ ## __How to run:__
+ From `twitter-sentiment-analysis-frontend`, run `npm craco start`. This will run the frontend on `localhost:3000`
 
 # Media
  
