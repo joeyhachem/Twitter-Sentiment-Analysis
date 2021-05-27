@@ -14,8 +14,10 @@ function App() {
     const [wordCloudSvg, setWordCloudSvg] = useState("");
     const [avgSentimentScore, setAvgSentimentScore] = useState(0);
     const [username, setUsername] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
 
     function performAnalysisEvent(inputText) {
+        setIsLoading(true);
         setUsername(inputText);
         fetchUserAnalysis(inputText).then(response => {
             if (response.stats) {
@@ -31,6 +33,7 @@ function App() {
             if (response.svg) {
                 setWordCloudSvg(response.svg);
             }
+            setIsLoading(false);
     });
     }
 
@@ -39,14 +42,14 @@ function App() {
           <Banner onButtonClick={performAnalysisEvent}>
           </Banner>
           <div className="grid grid-cols-12 sm:grid-cols-12 gap-4 mt-5">
-            <MiniCard title="Sentiment Score" secondary_title={`${avgSentimentScore}/ 100`}></MiniCard>
-            <MiniCard title="Lorem ipsum" secondary_title="n/a"></MiniCard>
-            <MiniCard title="Lorem ipsum" secondary_title="n/a"></MiniCard>
-            <MiniCard title="Lorem ipsum" secondary_title="n/a"></MiniCard>
+            <MiniCard title="Sentiment Score" secondary_title={`${avgSentimentScore}/ 100`} isLoading={isLoading}></MiniCard>
+            <MiniCard title="Lorem ipsum" secondary_title="n/a" isLoading={isLoading}></MiniCard>
+            <MiniCard title="Lorem ipsum" secondary_title="n/a" isLoading={isLoading}></MiniCard>
+            <MiniCard title="Lorem ipsum" secondary_title="n/a" isLoading={isLoading}></MiniCard>
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mt-10">
-              <SentimentAnalysisDonutChart canvasJSChart={CanvasJSChart} userStats={stats} username={username}></SentimentAnalysisDonutChart>
-              <Wordcloud wordCloudSvg={wordCloudSvg} username={username}></Wordcloud>
+              <SentimentAnalysisDonutChart canvasJSChart={CanvasJSChart} userStats={stats} username={username} isLoading={isLoading}></SentimentAnalysisDonutChart>
+              <Wordcloud wordCloudSvg={wordCloudSvg} username={username} isLoading={isLoading}></Wordcloud>
           </div>
 
 

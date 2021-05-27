@@ -10,7 +10,7 @@ export default function Banner(props) {
     }
 
     return (
-                    <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+                    <div className="md:flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <a href="#">
                                 <span className="sr-only">Workflow</span>
@@ -21,7 +21,7 @@ export default function Banner(props) {
                             </a>
                             <p className="self-center whitespace-nowrap text-2xl font-medium text-gray-900 ml-4">Twitter Sentiment Analysis</p>
                         </div>
-                        <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                        <div className="md:flex">
                             <div className="flex justify-center  mt-2 mr-4 mt-3">
                                 <div className="relative flex w-full flex-wrap items-stretch mb-3">
                                     <input type="search" placeholder="@username" onChange={event => setInputText(event.target.value)}
@@ -35,12 +35,14 @@ export default function Banner(props) {
                                     </span>
                                 </div>
                             </div>
-                            <button
-                                onClick={perform_analysis_clicked}
-                                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow-400 hover:bg-yellow-500"
-                            >
-                                Perform analysis
-                            </button>
+                            <div className="text-center py-2">
+                                <button
+                                    onClick={perform_analysis_clicked}
+                                    className="md:ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-yellow-400 hover:bg-yellow-500"
+                                >
+                                    Perform analysis
+                                </button>
+                            </div>
                         </div>
                     </div>
             )

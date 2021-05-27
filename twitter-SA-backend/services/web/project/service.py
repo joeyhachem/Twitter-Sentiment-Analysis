@@ -1,6 +1,6 @@
 import requests
 
-from services.web.project import helpers
+import helpers
 
 
 def twitter_auth_and_connect(bearer_token: str, url: str):

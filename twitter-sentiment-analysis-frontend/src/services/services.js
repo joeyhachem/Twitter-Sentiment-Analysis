@@ -4,7 +4,6 @@ export function fetchUserAnalysis(inputText) {
     })
         .then(response => response.json())
         .then(response => {
-            console.log(response);
             return response;
         })
         .catch(err => {
