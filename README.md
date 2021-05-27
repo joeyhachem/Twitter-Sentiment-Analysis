@@ -28,16 +28,15 @@
  Example of empty state:
  ![Empty State](https://user-images.githubusercontent.com/33491921/119240945-40c68900-bb21-11eb-9066-f54851da9106.PNG)
  
- Video of running an analysis on @certikorg (There are a lot of tweets so the service from Azure takes time, hence the slow load time shown here, TODO: Add loading state):
+ Video of running an analysis on @certikorg (There are a lot of tweets so the service from Azure takes time, hence the slow load time shown here):
  
- https://user-images.githubusercontent.com/33491921/119241021-af0b4b80-bb21-11eb-9376-ab3dc26e1069.mp4
+ https://user-images.githubusercontent.com/33491921/119776994-a3a68000-be93-11eb-8dee-873c6b2782dd.mp4
 
  Mobile views:
- ![Mobile view pt 1](https://user-images.githubusercontent.com/33491921/119241246-0100a100-bb23-11eb-8b9d-208bfaba745a.PNG)
- ![Mobile view pt 2](https://user-images.githubusercontent.com/33491921/119241250-0362fb00-bb23-11eb-865d-a49cf1615e81.PNG)
-
-
-
+ 
+ ![Mobile view pt 1](https://user-images.githubusercontent.com/33491921/119777082-b7ea7d00-be93-11eb-90eb-3a444bb21abb.PNG)
+ 
+ ![Mobile view pt 2](https://user-images.githubusercontent.com/33491921/119777089-b9b44080-be93-11eb-9a9e-f95ea61bd866.PNG)
  
  References:
   https://developer.twitter.com/en/docs/tutorials/how-to-analyze-the-sentiment-of-your-own-tweets
